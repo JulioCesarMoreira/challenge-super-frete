@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "es2016",
+            "es5",
+            "dom"
+        ],
+        "types": [
+            "cypress",
+            "node"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "preserveValueImports": false
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
